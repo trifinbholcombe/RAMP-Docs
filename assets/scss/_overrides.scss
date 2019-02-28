@@ -9,6 +9,38 @@ $ocean: #00b5ad;
 $steel: #39546b;
 $white: #fff;
 
+/* Buttons */
+.ui.button {
+  border-radius: 2rem;
+  &.primary {
+    color: $steel;
+    background: transparent;
+    border: 2px solid $blue;
+    &:hover {
+      background: darken($blue, 10%);
+      border-color: darken($blue, 10%);
+    }
+  }
+  &.secondary {
+    color: $ocean;
+    background: transparent;
+    border: 2px solid $ocean;
+    &:hover {
+      background: darken($ocean, 10%);
+      border-color: darken($ocean, 10%);
+    }
+  }
+}
+@media (max-width: 991px) {
+  .mobileStacked {
+    .button {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 1rem .5rem;
+    }
+  }
+}
+
 /* Reset */
 html,body {
   height: auto;
@@ -66,6 +98,15 @@ body {
     width: 200px;
   }
   margin-bottom: 0;
+}
+
+/* Typography */
+@media (min-width: 820px) {
+  .hero {
+    font-size: 3.5rem;
+    line-height: 1.125em;
+    letter-spacing: -1px;
+  }
 }
 
 /* Responsive margin */

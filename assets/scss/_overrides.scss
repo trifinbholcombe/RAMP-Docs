@@ -22,12 +22,12 @@ $white: #fff;
     }
   }
   &.secondary {
-    color: $ocean;
+    color: $brightBlue;
     background: transparent;
-    border: 2px solid $ocean;
+    border: 2px solid $brightBlue;
     &:hover {
-      background: darken($ocean, 10%);
-      border-color: darken($ocean, 10%);
+      background: darken($brightBlue, 10%);
+      border-color: darken($brightBlue, 10%);
     }
   }
 }

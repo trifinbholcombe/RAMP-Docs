@@ -68,7 +68,7 @@ After the package is installed, we'll go back to Heroku to connect the Salesforc
 ## Local Development Walkthrough
 The local environment has a number of configuration files and packages. This section will walk the user through each of these files and packages to gain a better understanding of the RAMP API and how to develop the API further. Below is an image of all of the potential files and folders that can be added to the API to expand functionality.
 
-_ramp api file list photo tbd_
+![RAMP file list](/assets/img/ramp-api-file-list.png)
 
 The API is versioned based on a **Node Loopback pattern** and a description of each of these folders can be found on loopback:
 

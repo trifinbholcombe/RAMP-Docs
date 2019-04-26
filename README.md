@@ -47,15 +47,14 @@ After the package is installed, we'll go back to Heroku to connect the Salesforc
     ---
 
     ```
-    npm i -g ramp-api-cli
-    ```
-    ###### Installs the CLI package needed to add in the models.
-    ---
-
-    ```
-    ramp-api-cli-win.cmd --allNewModels
+    npm run cli-win -- discover --allNewModels
     ```
     ###### Sets up the models folder with the ramp objects. This command can be run for any new models that need to be created or added  via salesforce.
+
+1. Run the following command to get help for other CLI commands:
+    ```
+    npm run cli-win -- help
+    ```
 
 1. Once the commands have been run and the .env file setup, the local API is ready to be started via the following command:
     ```
@@ -68,7 +67,7 @@ After the package is installed, we'll go back to Heroku to connect the Salesforc
 ## Local Development Walkthrough
 The local environment has a number of configuration files and packages. This section will walk the user through each of these files and packages to gain a better understanding of the RAMP API and how to develop the API further. Below is an image of all of the potential files and folders that can be added to the API to expand functionality.
 
-![RAMP file list](/assets/img/ramp-api-file-list.png)
+_ramp api file list photo tbd_
 
 The API is versioned based on a **Node Loopback pattern** and a description of each of these folders can be found on loopback:
 
